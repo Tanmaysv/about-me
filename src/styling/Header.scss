@@ -1,0 +1,28 @@
+@import 'variables';
+
+.Header {
+    background: $headerBackground;
+    padding: 10px;
+
+    ul {
+        //margin-left: auto;
+        width: 100%;
+        list-style: none;
+        display: flex;
+    }
+
+    li{
+        width: 14%;
+        list-style-type: none;
+        float: right;
+    }
+
+    a{
+        color: $textColor;
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+        //text-align: center;
+        font-size: $sectionSize;
+    }
+}
